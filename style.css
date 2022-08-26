@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(233, 232, 230);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+
+.title {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+.codeLang {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50px;
+}
+
+textarea {
+	padding: 10px;
+	outline: none;
+	height: 30vh;
+	width: 100%;
+	resize: none;
+	margin-top: 20px;
+}
+
+#compile {
+	background-color: #c0d12b;
+	font-size: 15px;
+	font-weight: 500;
+	color: black;
+	border: 1px solid #7b880a;
+	padding: 8px 15px;
+	margin-top: 20px;
+	cursor: pointer;
+	align-self: center;
+}
+
+.output h2 {
+	font-size: 25px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#outputScreen {
+	background: black;
+	height: 28vh;
+	padding: 10px;
+	color: white;
+	overflow-y: auto;
+}
